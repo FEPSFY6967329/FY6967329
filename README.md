@@ -7,3 +7,5 @@ Primary Codespace: `refactored guacamole`
 ---
 
 Use notes folder for saving/looking up saved topics
+
+Refer to GitHub issues to keep track of progress 
