@@ -23,6 +23,12 @@
 - Content ARCs: Decentralized Content Rights in the Age of Generative AI
   - [Surrey OpenResearch](https://openresearch.surrey.ac.uk/esploro/outputs/conferenceProceeding/Content-ARCs-Decentralized-Content-Rights-in/99997265802346?institution=44SUR_INST)
   - [DOI](https://doi.org/10.1049/icp.2025.2955)
+- Mobile privacy leakage detection and prevention : from technical solutions to user experience.
+  - [Surrey OpenResearch](https://openresearch.surrey.ac.uk/esploro/outputs/doctoral/Mobile-privacy-leakage-detection-and-prevention/99516019102346?institution=44SUR_INST)
+  - [DOI](https://doi.org/10.15126/thesis.00850605)
+- Monitoring individual animals through a collaborative crowdsourcing and citizen science platform.
+  - [Surrey OpenResearch](https://openresearch.surrey.ac.uk/esploro/outputs/doctoral/Monitoring-individual-animals-through-a-collaborative/99515582302346?institution=44SUR_INST)
+  - No DOI available.
 
 ---
 
