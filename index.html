@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="styles.css">
         <style>.mySlides {display:none;}</style>
         <title>Coursework - FY6967329</title>
+        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     </head>
     <body>
         <div id="heading"> <!-- Heading -->
@@ -82,6 +83,38 @@
 
             button.addEventListener("click", changeColour);
         </script>
+
+        <div id="chart_div"></div>
+        <script type="text/javascript">
+            google.charts.load("current", { "packages" : ["corechart"]});
+            google.charts.setOnLoadCallback(drawChart);
+
+            function drawChart() {
+                var data = google.visualization.arrayToDataTable([
+                    ["Task", "Hours per Day"],
+                    ["Work", 8],
+                    ["Sleep", 8],
+                    ["Eat", 2],
+                    ["Study", 4],
+                    ["Exercise", 2]
+                ]);
+
+                var options = {
+                    title: "Lab H3 LO 3.2 Steps 1-5"
+                }
+
+                var chart = new google.visualization.PieChart(document.getElementById("chart_div"));
+                chart.draw(data, options)
+            }
+        </script>
+
+
+
+
+
+
+
+
         <br>
         <br>
         <br>
@@ -95,7 +128,7 @@
 
         <div id="Example_AnalysisInText">
             <pre id="Analysis_InText">
-                Example "Analysis In Text" section. Four five six.
+                Example "Analysis In Text" section. Four five six seven eight.
             </pre>
         </div>
 
