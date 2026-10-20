@@ -71,5 +71,16 @@
             <p class="ex1"><pre>Contents of this section (example section C)</pre></p>
         </div>
 
+        <button id="colourButton">Click me to change colour</button>
+        <script>
+            var button = document.getElementById("colourButton");
+
+            function changeColour() {
+                var randomColour = "#" + Math.floor(Math.random()*16777215).toString(16)
+                button.style.backgroundColoor = randomColour;
+            }
+
+            button.addEventListener("click", "changeColour");
+        </script>
     </body>
 </html>
