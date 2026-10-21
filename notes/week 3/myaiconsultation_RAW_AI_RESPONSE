@@ -1,0 +1,133 @@
+Your planned topic is a good idea. You are right that it is relatively new, but you are wrong to assume that this makes it unsuitable. In fact, the lack of settled answers makes it appropriate for a literature-based project—provided you narrow it substantially.
+The main problem is not a lack of sources. The problem is that “Digital ID and online ID verification” is too broad for an 800–1,000-word article. You should focus on one specific ethical question, such as whether age assurance can protect children without creating disproportionate privacy and surveillance risks.
+1. Recommended topic
+Can online age assurance protect children without undermining privacy?
+This is stronger than the general topic of “Digital ID” because it gives you:
+
+a clear ethical conflict;
+a direct connection to cybersecurity and computing;
+relevant UK legislation;
+enough academic and official material;
+a manageable scope for 800–1,000 words.
+
+A possible research question is:
+
+To what extent can online age-assurance systems protect children while respecting the privacy and anonymity of internet users?
+
+A possible argument is:
+
+Online age assurance is justified where it addresses serious risks to children, but systems based on unnecessary identity collection, facial analysis or centralised databases may create disproportionate privacy and cybersecurity risks. Privacy-preserving and risk-based approaches are therefore ethically preferable.
+
+Ofcom describes age assurance as a way of determining whether users are adults or children, and says that systems should consider technical accuracy, robustness, reliability, fairness, accessibility and interoperability. 1  This gives you a useful framework for evaluating the technology rather than merely describing it.
+2. Is your original plan sensible?
+Yes—but revise it.
+Your instinct that the topic is niche is accurate, but “niche” does not mean “bad”. A literature-based project does not require hundreds of papers specifically about the exact UK law. You can combine:
+
+academic research on privacy, biometrics and digital identity;
+official guidance from Ofcom and the ICO;
+legislation such as the Online Safety Act;
+ethical theories such as privacy, autonomy, proportionality and justice.
+
+There is already recent academic literature directly addressing the subject. For example, Jarvie and Renaud’s 2024 paper examines age-verification legislation, responsibility placed on online service providers and UK public perceptions. 2  Beltrán and de Salvador also provide a systematic privacy threat model for age-assurance systems. 3
+The topic is particularly suitable because the UK regulatory environment is active. The Online Safety Act introduced duties concerning highly effective age assurance, and Ofcom identifies methods including digital identity services, facial age estimation, mobile-network checks, open banking and photo-ID matching. 4  1  Ofcom also states that age-assurance systems process personal data and must comply with data-protection law. 1
+However, you should avoid presenting the article as if you are conducting original research into whether the technology “works”. With only 800–1,000 words, your project should be a critical literature review, not an attempt to solve the entire policy debate.
+Avoid this title
+
+Digital ID and ID Verification in Modern Society
+
+It is too broad and could lead to an unfocused article covering passports, banking, social media, government services, biometrics and cybersecurity.
+Use a title like one of these
+
+Age Assurance Online: Child Protection or Privacy Threat?
+Can Online Age Verification Be Both Effective and Private?
+The Ethical Trade-Offs of Digital Age Assurance
+Online Age Verification and the Right to Anonymity
+Privacy-Preserving Age Assurance: Is It Possible?
+
+3. Alternative topic ideas
+These would also suit your background in computer science and ethics:
+1. Facial recognition and algorithmic bias
+Research question:
+
+Is facial-recognition technology ethically acceptable when it produces different error rates for different demographic groups?
+
+You could discuss privacy, consent, discrimination, accuracy and surveillance.
+2. End-to-end encryption versus public safety
+Research question:
+
+Should governments require technology companies to weaken encryption to investigate serious crime?
+
+This provides a clear conflict between privacy, cybersecurity and law enforcement. You could compare the benefits of secure encryption with arguments about child-abuse investigations and terrorism.
+3. Artificial intelligence in criminal justice
+Research question:
+
+Can algorithmic systems be used fairly to assess criminal risk?
+
+This allows you to explore bias, transparency, accountability and whether software should influence decisions affecting people’s liberty.
+4. Generative AI and academic integrity
+Research question:
+
+Is restricting generative AI in education an ethical response to academic misconduct?
+
+You could consider authorship, fairness, accessibility, privacy and whether universities should focus on assessment redesign rather than prohibition.
+5. The ethics of persuasive design
+Research question:
+
+Should social-media platforms be ethically permitted to use recommendation algorithms designed to maximise user engagement?
+
+This would let you discuss autonomy, addiction, manipulation, children’s safety and corporate responsibility.
+6. Privacy-enhancing technologies
+Research question:
+
+Can technologies such as zero-knowledge proofs provide identity verification without revealing unnecessary personal information?
+
+This is a particularly strong option if you want a more technical project. You could explain how a user might prove that they are over 18 without disclosing their exact date of birth or full identity.
+7. Cybersecurity responsibility
+Research question:
+
+Is it reasonable for governments to place most cybersecurity responsibility on individual users?
+
+This connects well with ethics because it raises questions about fairness, technical knowledge and whether organisations should bear more responsibility for secure design.
+4. Sources for your chosen topic
+Use these as the foundation of your project:
+
+Ofcom, “Age assurance duties under the Online Safety Act.” This is your main technical and regulatory source. It explains acceptable methods and evaluation criteria such as accuracy, reliability and fairness. 1
+GOV.UK, “Online Safety Act: explainer.” This explains the legal context, including the responsibilities placed on online platforms and the role of Ofcom. 5
+ICO, “Age Assurance research.” This provides research into how organisations use age assurance and discusses the balance between privacy, online safety and usability. 6
+Jarvie and Renaud, “Online Age Verification: Government Legislation, Supplier Responsibilization, and Public Perceptions.” This is a directly relevant open-access academic article covering law, technology, privacy and public trust. 2
+Beltrán and de Salvador, “Implications of Age Assurance on Privacy and Data Protection: A Systematic Threat Model.” This is useful for the cybersecurity section because it focuses specifically on privacy threats and data-protection risks. 3
+Pasquale et al., “Digital Age of Consent and Age Verification: Can They Protect Children?” This provides earlier academic discussion of whether age verification can actually achieve its intended protective purpose. 3
+Renaud and Maguire, “Regulating access to adult content with privacy preservation.” This is useful for discussing privacy-preserving approaches to age verification. 3
+The Online Safety Act 2023. Use the legislation itself rather than relying only on news reports or social-media commentary. 5  3
+
+5. Suggested structure for the article
+For 800–1,000 words:
+
+
+Introduction — 100–120 words
+Define age assurance and introduce the ethical conflict.
+
+
+Why age assurance is being introduced — 150–180 words
+Discuss child protection and the UK Online Safety Act. 4  5
+
+
+Potential benefits — 150–180 words
+Explain how age assurance may restrict access to harmful or age-inappropriate content. 1
+
+
+Privacy and cybersecurity risks — 250–300 words
+Discuss identity theft, data retention, facial biometrics, surveillance, function creep and inaccurate systems. 1  3  2
+
+
+Ethical evaluation — 180–220 words
+Apply privacy, autonomy, proportionality, fairness and justice.
+
+
+Conclusion — 100–120 words
+Argue that age assurance may be justified, but only when it is effective, proportionate, privacy-preserving and independently accountable.
+
+
+Strict verdict: keep the topic, but do not call the project simply “Digital ID”. Make it about the ethical trade-off between child safety and privacy in online age assurance. That topic is current, academically supportable and narrow enough to produce a coherent conference article.
+
+[1]https://www.ofcom.org.uk/online-safety/protecting-children/age-assurance[2]https://pmc.ncbi.nlm.nih.gov/articles/PMC11429505/[3]https://link.springer.com/chapter/10.1007/978-3-031-68024-3_1[4]https://www.gov.uk/government/collections/online-safety-act[5]https://www.gov.uk/government/publications/online-safety-act-explainer/online-safety-act-explainer[6]https://ico.org.uk/about-the-ico/research-reports-impact-and-evaluation/research-and-reports/age-assurance-research/Search results by Bing
