@@ -18,8 +18,9 @@ body {
 }
 
 .grid-container img {
-  width: 100%;
+  width: auto;
   height: auto;
+  size: 25%;
 }
 
 
