@@ -1,15 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: #ffffff;
-    margin-top: 100px;
+    margin: 0;
+    padding-top: 58px;
 }
 
 .header {
-  padding: 9px 16px;
-  background: #f1f1f1;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 1000; /* keep on top */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 58px;
+    padding: 9px 16px;
+    background: #f1f1f1;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+}
+
+.header p {
+    margin: 0;
+}
+
+#heading img {
+    max-width: 100%;
+    height: auto;
 }
 
 table {
