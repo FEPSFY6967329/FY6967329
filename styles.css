@@ -9,20 +9,8 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 1000; /* keep on top */
 }
-
-.grid-container {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  gap: 20px;
-}
-
-.grid-container img {
-  width: auto;
-  height: auto;
-  size: 25%;
-}
-
 
 table {
     font-family: arial, sans-serif;
