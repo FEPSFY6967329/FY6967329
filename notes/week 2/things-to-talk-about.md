@@ -37,3 +37,16 @@
 - Co-op: Deployed specialized age-estimation camera units at self-checkouts in Manchester to evaluate biometric age verification during live transactions.
 - Tesco: Trialled facial estimation technology for age-restricted grocery order collections via click-and-collect lockers in Tiverton.
 - Results: Participating retailers found the technology faster and often more consistent than human visual checks, with strong consumer acceptance among shoppers comfortable with instantaneous, anonymous face scans that delete the image immediately after use.
+
+---
+
+**Week 3 Consultation Sources**
+- Ofcom, "Age assurance duties under the Online Safety Act." This is your main technical and regulatory source. It explains acceptable methods and evaluation criteria such as accuracy, reliability and fairness. <sub>[[1]](https://www.ofcom.org.uk/online-safety/protecting-children/age-assurance)</sub>
+- GOV.UK, "Online Safety Act: explainer." This explains the legal context, including the responsibilities placed on online platforms and the role of Ofcom. <sub>[[5]](https://www.gov.uk/government/publications/online-safety-act-explainer/online-safety-act-explainer)</sub>
+- ICO, "Age Assurance research." This provides research into how organisations use age assurance and discusses the balance between privacy, online safety and usability. <sub>[[6]](https://ico.org.uk/about-the-ico/research-reports-impact-and-evaluation/research-and-reports/age-assurance-research/)</sub>
+- Jarvie and Renaud, "Online Age Verification: Government Legislation, Supplier Responsibilization, and Public Perceptions." This is a directly relevant open-access academic article covering law, technology, privacy and public trust. <sub>[[2]](https://pmc.ncbi.nlm.nih.gov/articles/PMC11429505/)</sub>
+- Beltrán and de Salvador, "Implications of Age Assurance on Privacy and Data Protection: A Systematic Threat Model." This is useful for the cybersecurity section because it focuses specifically on privacy threats and data-protection risks. <sub>[[3]](https://link.springer.com/chapter/10.1007/978-3-031-68024-3_1)</sub>
+- Pasquale et al., "Digital Age of Consent and Age Verification: Can They Protect Children?" This provides earlier academic discussion of whether age verification can actually achieve its intended protective purpose. <sub>[[3]](https://link.springer.com/chapter/10.1007/978-3-031-68024-3_1)</sub>
+- Renaud and Maguire, "Regulating access to adult content with privacy preservation." This is useful for discussing privacy-preserving approaches to age verification. <sub>[[3]](https://link.springer.com/chapter/10.1007/978-3-031-68024-3_1)</sub>
+- The Online Safety Act 2023. Use the legislation itself rather than relying only on news reports or social-media commentary. <sub>[[5]](https://www.gov.uk/government/publications/online-safety-act-explainer/online-safety-act-explainer) [[3]](https://link.springer.com/chapter/10.1007/978-3-031-68024-3_1)</sub>
+- Unused citation provided to me: <sub>[[4]](https://www.gov.uk/government/collections/online-safety-act)</sub>
