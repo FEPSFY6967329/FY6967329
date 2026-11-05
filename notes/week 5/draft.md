@@ -37,9 +37,15 @@ The Information Commissioner's Office states that age-assurance systems must con
 
 ### Privacy and cybersecurity risks
 
-**[AS OF XX/11/2026] Word Count: ???**
+**[AS OF 05/11/2026] Word Count: 319 (SOURCE: MICROSOFT WORD)**
 
-Intentionally left blank
+There are numerous amounts of dangers and risks that could be named here, but for now, I'll cover the three main ones most people worry about.
+
+The first main risk is the unnecessary collection of personal information. Typically, online platforms use vendors to provide them with age verification services. While the platforms only receive an age result, the vendor still processes all the personal information, and has the opportunity to use it maliciously, such as storing it for later use. For example, facial age estimation may result in a company storing an image of your face in a database to train their estimation models on it. Another example might be a company storing the details of your government documents, which is to then be sold off for marketing purposes in order to gain a profit off your personal information.
+
+This brings us to the second risk, being a security flaw or failure. A data breach involving documents with personally identifiable information or facial information could have far more serious consequences than a case of simply having a password be revealed, primarily because of how biometric characteristics cannot easily be changed. The existence of breaches involving identity-verification vendors serves as a reason for why data collection should be minimized and why strong security controls matter. Centralised databases may also become attractive targets for attackers.
+
+The third and final risk I'll cover is the loss of anonymity. Users may reasonably want to access information lawfully without platforms learning or tracing their identity. Linking an age check to browsing activity could enable tracking or create opportunities for secondary uses of data. Some concerning examples of "secondary uses" can range from your data being sold for marketing purposes to more severe cases like cyberstalking. Consequently, the question is not simply whether age assurance can identify children, but whether it can do so without creating a new infrastructure for mass surveillance and data exploitation.
 
 ### Ethical evaluation: can the risks be justified?
 
