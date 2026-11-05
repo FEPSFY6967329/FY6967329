@@ -71,6 +71,12 @@ With this, we can see that age assurance is most defensible when it's targeted, 
 
 ### Conclusion
 
-**[AS OF XX/11/2026] Word Count: ???**
+**[AS OF XX/11/2026] Word Count: 156 words (SOURCE: MICROSOFT WORD)**
 
-Intentionally left blank
+To conclude, this article examined whether online age assurance should be regarded as a means of keeping children safe and protected online or whether it should be seen instead as a privacy threat.
+
+The evidence indicates that it can contribute to child protection by addressing the weakness of sites that let users declare their own ages and supporting platforms' regulatory responsibilities.
+
+Nevertheless, identity and biometric checks can create serious risks involving data breaches, surveillance, inaccurate results and loss of anonymity. The ethical issue is, therefore, not whether age assurance is always acceptable or unacceptable, but rather by which methods are used and under what safeguards.
+
+Age assurance can only be justified when it is proportionate to the risk, technically reliable, fair to different users across a variety of groups, and supported by strong security and the minimizing of data being stored on users. Privacy-preserving age proofs are preferable to systems that routinely expose users' full identities.
