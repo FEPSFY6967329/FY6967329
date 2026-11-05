@@ -49,9 +49,25 @@ The third and final risk I'll cover is the loss of anonymity. Users may reasonab
 
 ### Ethical evaluation: can the risks be justified?
 
-**[AS OF XX/11/2026] Word Count: ???**
+**[AS OF 05/11/2026] Word Count: 258 (SOURCE: MICROSOFT WORD)**
 
-Intentionally left blank
+The ethicality of age assurance can be assessed through various factors, such as privacy, autonomy, proportionality, fairness and security. The table below provides a framework for applying these principles.
+
+| Ethical principle | Question for evaluation | Potential concern |
+|-|-|-|
+| Privacy | Is only necessary information collected? | Identity or biometric data may be collected unnecessarily |
+| Autonomy | Can users access services lawfully without excessive monitoring? | Users may lose anonymity or feel pressed to identify themselves |
+| Proportionality | Is the measure appropriate to the risk being addressed? | Highly intrusive checks may be used for low-risk content |
+| Fairness | Does the system work equally well for different users? | Error rates or access barriers may affect groups unequally |
+| Security | Does the system introduce additional risks? | Breaches, identity theft, secondary data use |
+
+These principles suggest that not all age-assurance methods are ethically equivalent.
+
+While a system that requires a platform to receive a full identification document may act as stronger evidence than declaring your own age, it creates far greater privacy risks, especially when it comes to the risk of being in a data breach.
+
+Compared to this, an alternative system could allow a trusted provider to confirm that a user is over a particular age without giving away their identity or exact date of birth, and while it may not remove every risk (because providers must still be trusted and systems must be secure), it better reflects the ethical practices of minimizing data retention. 
+
+With this, we can see that age assurance is most defensible when it's targeted, evaluated, accessible and designed to reveal no more information than necessary.
 
 ### Conclusion
 
