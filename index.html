@@ -66,8 +66,8 @@
 
 
         <div id="section"> <!-- Abstract (150 words max) -->
-            <h3 id="Abstract">Abstract</h3>
-            <pre id="Introduction_InText">Throughout various governments, online age assurance has been cited as being the solution to the goal of keeping children protected from harmful content online. This article will critically evaluate online age assurance, looking not only at how it works to keep children safe online, but also whether it poses any additional consequences.
+            <h3 id="Abs">Abstract</h3>
+            <pre id="Abstract">Throughout various governments, online age assurance has been cited as being the solution to the goal of keeping children protected from harmful content online. This article will critically evaluate online age assurance, looking not only at how it works to keep children safe online, but also whether it poses any additional consequences.
 
 The article draws from guidance from OFCOM, academic research, UK law, and real-world events since the widespread implementation of online age assurance.
 While the evidence does suggest that age assurance may support child safety, the methods used to conduct online age assurance remain ethically questionable, with most methods involving personally identifying information, such as legal documents or biometric information.
@@ -80,7 +80,7 @@ Overall, online age assurance can be seen as a valid way of keeping children saf
         <!-- Further example sections for table of contents -->
         <div id="section">
             <h3 id="1">Introduction</h3>
-            <pre id="Introduction_InText">Online platforms are increasingly expected to determine whether users are children or adults, with the expectation being developed by concerns about children's exposure to harmful content online, leading to various laws being implemented in the UK.
+            <pre id="Article1">Online platforms are increasingly expected to determine whether users are children or adults, with the expectation being developed by concerns about children's exposure to harmful content online, leading to various laws being implemented in the UK.
 
 "Online age assurance" acts as an umbrella term, generally referring to the methods used to estimate or verify a user's age. However, the process of verifying a user's age to protect children may require users to give up personally identifiable information that can itself create large risks for the user. For example, some methods may range from facial age estimation to scanning government documents through digital ID services. 
 
@@ -90,7 +90,7 @@ This article will examine whether online age assurance should be understood prim
 
         <div id="section">
             <h3 id="2">Why online age assurance is being introduced</h3>
-            <pre id="Introduction_InText">The main argument supporting age assurance is that children may encounter content or services that are unsuitable for their age. Being able to choose your own age without any checks in place has always been a thing children have used to their advantage, which is why governments have started having interests in providing stronger evidence.
+            <pre id="Article2">The main argument supporting age assurance is that children may encounter content or services that are unsuitable for their age. Being able to choose your own age without any checks in place has always been a thing children have used to their advantage, which is why governments have started having interests in providing stronger evidence.
 
 The UK introduced and passed the Online Safety Act in October of 2023, with parliament stating that the act would "be fully implemented in 2026" [https://commonslibrary.parliament.uk/research-briefings/cdp-2025-0043/]. This law places duties on online services to start properly enforcing age requirements, with Ofcom identifying several possible approaches, including facial age estimation, digital identity services, mobile-network checks and photo-identification. These approaches shouldn't be seen as the same thing, however. On one hand, age estimation tries to predict an age, or where a user might belong in a list of age ranges. On the other hand, age verification checks evidence, such as a government document like a passport or driver's license.
 
@@ -99,7 +99,7 @@ The Information Commissioner's Office states that age-assurance systems must con
 
         <div id="section">
             <h3 id="3">Privacy and cybersecurity risks</h3>
-            <pre id="Introduction_InText">There are numerous amounts of dangers and risks that could be named here, but for now, I'll cover the three main ones most people worry about.
+            <pre id="Article3">There are numerous amounts of dangers and risks that could be named here, but for now, I'll cover the three main ones most people worry about.
 
 The first main risk is the unnecessary collection of personal information. Typically, online platforms use vendors to provide them with age verification services. While the platforms only receive an age result, the vendor still processes all the personal information, and has the opportunity to use it maliciously, such as storing it for later use. For example, facial age estimation may result in a company storing an image of your face in a database to train their estimation models on it. Another example might be a company storing the details of your government documents, which is to then be sold off for marketing purposes in order to gain a profit off your personal information.
 
@@ -110,12 +110,12 @@ The third and final risk I'll cover is the loss of anonymity. Users may reasonab
 
         <div id="section">
             <h3 id="4">Ethical evaluation: can the risks be justified?</h3>
-            <pre id="Introduction_InText">To be created (table/chart/figure/etcetera).</pre>
+            <pre id="Article4">To be created (table/chart/figure/etcetera).</pre>
         </div>
 
         <div id="section">
             <h3 id="5">Conclusions</h3>
-            <pre id="Introduction_InText">To conclude, this article examined whether online age assurance should be regarded as a means of keeping children safe and protected online or whether it should be seen instead as a privacy threat.
+            <pre id="Article5">To conclude, this article examined whether online age assurance should be regarded as a means of keeping children safe and protected online or whether it should be seen instead as a privacy threat.
 
 The evidence indicates that it can contribute to child protection by addressing the weakness of sites that let users declare their own ages and supporting platforms' regulatory responsibilities.
 
@@ -176,19 +176,6 @@ Age assurance can only be justified when it is proportionate to the risk, techni
         <br>
         <br>
         <hr>
-
-        <div id="Example_IntroInText">
-            <pre id="Introduction_InText">
-                Example "Introduction In Text" section. One two three.
-            </pre>
-        </div>
-
-        <div id="Example_AnalysisInText">
-            <pre id="Analysis_InText">
-                Example "Analysis In Text" section. Four five six seven eight.
-            </pre>
-        </div>
-
 
         <div id="TimeStamp_WordCount">
             <!-- //////////////////////////////////////////////////////////////////////////////// -->
@@ -262,10 +249,17 @@ Age assurance can only be justified when it is proportionate to the risk, techni
                 // Function to calculate and display total word count from selected sections
                 function displayTotalWordCount() {
                     // Calculate word count for each section and accumulate the total
-                    const IntroductionCount = displayWordCount("Introduction_InText");
-                    const AnalysisCount = displayWordCount("Analysis_InText");
+                    // const IntroductionCount = displayWordCount("Introduction_InText");
+                    // const AnalysisCount = displayWordCount("Analysis_InText");
+                    const AbstractCount = displayWordCount("Abstract");
+                    const IntroductionCount = displayWordCount("Article1");
+                    const WhyCount = displayWordCount("Article2");
+                    const RisksCount = displayWordCount("Article3");
+                    const EvalCount = displayWordCount("Article4");
+                    const ConclusionCount = displayWordCount("Article5");
                     // Calculate the sum of all selected sections
-                    const totalWordCount = IntroductionCount + AnalysisCount;
+                    // const totalWordCount = IntroductionCount + AnalysisCount;
+                    const totalWordCount = AbstractCount + IntroductionCount + WhyCount + RisksCount + EvalCount + ConclusionCount;
                     // Display the total word count
                     document.getElementById("totalWordCount").innerText = `Total word count: ${totalWordCount}`;
                 }
