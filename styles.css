@@ -1,13 +1,23 @@
+/* base */
 * {
     box-sizing: border-box;
 }
 
-body {
-    background-color: #ffffff;
-    margin: 0;
-    padding-top: 58px;
+html {
+    scroll-behavior: smooth;
 }
 
+body {
+    background-color: #ffffff;
+    color: #222222;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+    padding-top: 58px; /* space for fixed header */
+}
+
+/* fixed header bar */
 .header {
     position: fixed;
     top: 0;
@@ -16,6 +26,7 @@ body {
     min-height: 58px;
     padding: 9px 16px;
     background: #f1f1f1;
+    border-bottom: 1px solid #cccccc;
     z-index: 1000;
     display: flex;
     align-items: center;
@@ -25,15 +36,41 @@ body {
     margin: 0;
 }
 
+/* page heading/title */
+#heading,
+#title {
+    text-align: center;
+    padding: 0 16px;
+}
+
 #heading img {
     max-width: 100%;
     height: auto;
 }
 
+#heading h1,
+#title h2 {
+    margin: 12px 0;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #cccccc;
+    margin: 16px auto;
+    max-width: 800px;
+}
+
+/* table of contents */
+#tableofcontents {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
 table {
-    font-family: arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     border-collapse: collapse;
-    width: 30%;
+    width: 100%;
 }
 
 td, th {
@@ -42,11 +79,78 @@ td, th {
     padding: 8px;
 }
 
+th h3 {
+    margin: 0;
+}
+
 tr:nth-child(even) {
-    background-color: #dddddd;
+    background-color: #f2f2f2;
+}
+
+/* article sections */
+/* (index uses duplicate id="section" (ill fix this later), so attribute selectors are used so that they all get styled) */
+[id="section"] {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+[id="section"] h3 {
+    margin-top: 32px;
+    margin-bottom: 8px;
+    scroll-margin-top: 70px; /* stops fixed header covering anchor jumps */
+}
+
+/* text is inside <pre>; make it wrap and look like normal text */
+pre {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    margin: 0 0 16px 0;
+}
+
+/* hyperlinks, links, urls, etc. */
+a {
+    color: #0b5cad;
+}
+
+/* button/chart */
+#colourButton {
+    display: block;
+    margin: 16px auto;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+#chart_div {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+/* example sections, footer info */
+#Example_IntroInText,
+#Example_AnalysisInText,
+#TimeStamp_WordCount {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+#last-updated,
+#totalWordCount {
+    text-align: center;
 }
 
 /* LAB H2, Step 10 */
 p.ex1 {
-    margin-left: 250px
+    margin-left: 250px;
+}
+
+/* small screens */
+@media (max-width: 600px) {
+    p.ex1 {
+        margin-left: 0;
+    }
 }
