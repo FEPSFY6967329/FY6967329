@@ -30,10 +30,16 @@ body {
     z-index: 1000;
     display: flex;
     align-items: center;
+    gap: 1%;
 }
 
 .header p {
     margin: 0;
+}
+
+.header img {
+    height: auto;
+    width: 10%;
 }
 
 /* page heading/title */
