@@ -38,8 +38,8 @@ body {
 }
 
 .header img {
-    height: auto;
-    width: 10%;
+    height: 10%;
+    width: auto;
 }
 
 /* page heading/title */
